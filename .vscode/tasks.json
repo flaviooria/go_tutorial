@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "type": "shell",
+    "tasks": [
+        {
+            "label": "Ejecutar main go",
+            "command": "cd cmd/cli && go run main.go",
+            "type": "shell",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new",
+                "clear": true
+            },
+            "group": "build"
+        }
+    ]
+}
