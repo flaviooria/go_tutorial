@@ -24,6 +24,19 @@ func PrintMaps() {
 	fmt.Println(myMap)
 	fmt.Println(myMap2)
 
+	fmt.Println("Accediendo a un valor del map: ")
+
+	// Al querer obtener un valor de un map, esta te devuelve 2 valores
+	// la primera es el valor y el segundo un booleano dando true si existe o false si no es así
+
+	value, exists := myMap["Flavio"]
+
+	if exists {
+		println("El valors de Flavio es: ", value)
+	} else {
+		println("No existe ningun valor")
+	}
+
 	fmt.Println("iterando sobre los datos de un map: ")
 
 	for k, v := range myMap {
