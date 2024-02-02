@@ -5,6 +5,7 @@ import (
 	"go_tutorials/internal/arrays"
 	"go_tutorials/internal/basictypes"
 	flow_control "go_tutorials/internal/flow-control"
+	"go_tutorials/internal/maps"
 	"go_tutorials/internal/variables"
 )
 
@@ -23,4 +24,6 @@ func main() {
 	arrays.AddNewElements()
 	fmt.Println()
 	arrays.RemoveItemFromArray()
+	fmt.Println()
+	maps.PrintMaps()
 }
