@@ -16,5 +16,11 @@ func main() {
 	fmt.Println()
 	flow_control.PrintFlowControl()
 	fmt.Println()
-	arrays.PrintArray()
+	arrays.PrintInitializationArrays()
+	fmt.Println()
+	arrays.AccessPosition()
+	fmt.Println()
+	arrays.AddNewElements()
+	fmt.Println()
+	arrays.RemoveItemFromArray()
 }
