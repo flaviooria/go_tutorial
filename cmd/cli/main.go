@@ -6,6 +6,7 @@ import (
 	"go_tutorials/internal/basictypes"
 	flow_control "go_tutorials/internal/flow-control"
 	"go_tutorials/internal/maps"
+	"go_tutorials/internal/structs"
 	"go_tutorials/internal/variables"
 )
 
@@ -26,4 +27,12 @@ func main() {
 	arrays.RemoveItemFromArray()
 	fmt.Println()
 	maps.PrintMaps()
+	fmt.Println()
+	structs.PrintStructs()
+	fmt.Println()
+	structs.PrintStructsInsert()
+	fmt.Println()
+	structs.PrintStructPointer()
+	fmt.Println()
+	structs.PrintStrucEncodedAndDecoded()
 }
