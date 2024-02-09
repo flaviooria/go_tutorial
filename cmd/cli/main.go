@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"go_tutorials/internal/arrays"
 	"go_tutorials/internal/basictypes"
+	"go_tutorials/internal/exercises"
 	flow_control "go_tutorials/internal/flow-control"
 	"go_tutorials/internal/maps"
 	"go_tutorials/internal/structs"
@@ -35,4 +36,6 @@ func main() {
 	structs.PrintStructPointer()
 	fmt.Println()
 	structs.PrintStrucEncodedAndDecoded()
+	fmt.Println()
+	exercises.PrintFibonnaci()
 }
