@@ -12,7 +12,7 @@ import (
 )
 
 func main() {
-
+	fmt.Println("Imprimiendo ejercicios de Go")
 	basictypes.PrintTypes()
 	fmt.Println()
 	variables.PrintVariables()
